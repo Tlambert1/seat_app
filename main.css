@@ -1,11 +1,36 @@
-.seat {
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	background-color: blue;
-	float: left;
+body {
+	background: black;
+	color:white;
 }
 
-.row {
-	width: 1000px;
+header{
+	text-align: center;
+	font-family: cursive;
+	border: 2px dotted orange;
+	width: 500px;
+	margin-left: 400px;
+
+}
+.col-xs-3 p{
+	display: inline;
+}
+
+.col-xs-3 {
+	text-align: center;
+	width: 80px;
+	border:2px dotted orange;
+
+}
+
+
+.row{
+	float: left;
+	text-align: center;
+	
+}
+
+.theater{
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 380px;
 }
