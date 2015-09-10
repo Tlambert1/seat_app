@@ -1,36 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 body {
-	background: black;
-	color:white;
+	font-family: "Open Sans";
 }
-
-header{
-	text-align: center;
-	font-family: cursive;
-	border: 2px dotted orange;
-	width: 500px;
-	margin-left: 400px;
-
-}
-.col-xs-3 p{
-	display: inline;
-}
-
-.col-xs-3 {
-	text-align: center;
-	width: 80px;
-	border:2px dotted orange;
-
-}
-
-
-.row{
-	float: left;
+h1, p {
 	text-align: center;
 	
 }
+#wrapper {
+	margin: 0 auto;
+	width: 50%;
+}
+#row-1, #row-2, #row-3, #row-4 {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #F0F8FF;
+	border-radius: 0 auto;
+	border : solid 1px;
+}
+#seat-1, #seat-2, #seat-3, #seat-4, #seat-5, #seat-6 {
+	width: 12%;
+	height: 100px;
+	margin: 10px;
+	float: left;
+	border: 1px solid black;
+	border: solid 2px red;
+	border-color: #0D4F8B;
+	margin: 2%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	background-color:#BFEFFF;
 
-.theater{
-	width: 400px;
-	margin-top: 50px;
-	margin-left: 380px;
+}
+
+
+.row {
+	width: 1000px;
+}
+
+.available {
+	background-color: white;
+}
+
+.unavailable {
+	background-color: red;
+}
+
+.selected {
+	background-color: blue;
+}
+
+
+
+
+.div_hover:hover { 
+	background-color: #FFFFFF; 
+}
+#form{
+	padding: 51px;
+	margin: 39%;
 }
