@@ -1,19 +1,37 @@
 $(document).ready(function() {
     
+var reservationArray= [];
+
+var reserver= function(name, email) {
+	this.name=name;
+	this.email=email;
+}
+
 
 $("#form").hide();
 
 
 
 $(".available").on('click', function(){
-	$(this).removeClass('available').addClass('selected');
+	$(this).toggleClass('selected').toggleClass('available');
+	$(this).off("mouseenter");
 	$("form").slideDown( "slow");
-})
+});
+
 
 $(".available").hover(function(){
     $(this).fadeTo("slow", 0.25);
-    }, function(){
+    }, function() {
     $(this).fadeTo("slow", 1);
+});
+
+
+$('#submit').on('click', function(e) {
+	e.preventDefault();
+	$('.selected').addClass('unavailable').removeClass('selected');
+	var person= new reserver(document.getElementById('name').value, document.getElementById('email').value);
+	reservationArray.push(person);
+	console.log(reservationArray);
 });
 
 
