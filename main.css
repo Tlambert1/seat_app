@@ -46,8 +46,8 @@ header {
 	float: left;
 	line-height: 100px;
 	text-align: center;
-/*
-	background-color:#BFEFFF;*/
+
+	
 
 }
 
@@ -57,7 +57,7 @@ header {
 }
 
 .available {
-	background-color: white;
+	background-color: rgb(191, 239, 255);
 }
 
 .unavailable {
@@ -65,15 +65,15 @@ header {
 }
 
 .selected {
-	background-color: blue;
+	background-color: #315A97;
+}
+
+.available:hover {
+	background-color: rgba(191, 239, 255, 0.25);
 }
 
 
 
-
-.div_hover:hover { 
-	background-color: #FFFFFF; 
-}
 #form{
 	padding: 51px;
 	margin: 39%;
@@ -81,35 +81,5 @@ header {
 
 
 
-
-
-.available {
-	background-color: green;
-
-}
-
-.unavailable {
-	background-color: red;
-
-}
-
-.selected {
-	background-color: blue;
-
-}
-
-
-
-
-
-.div_hover:hover { 
-	background-color: #FFFFFF; 
-}
-
-#form{
-	clear: both;
-	margin-top: 50px;
-	text-align: none;
-}
 
 

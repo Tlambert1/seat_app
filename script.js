@@ -14,16 +14,20 @@ $("#form").hide();
 
 $(".available").on('click', function(){
 	$(this).toggleClass('selected').toggleClass('available');
-	$(this).off("mouseenter");
+	// $(this).off("mouseenter");
 	$("form").slideDown( "slow");
 });
 
+// $(".selected").on('click', function(){
+// 	$(this).on("hover");
+// })
 
-$(".available").hover(function(){
-    $(this).fadeTo("slow", 0.25);
-    }, function() {
-    $(this).fadeTo("slow", 1);
-});
+
+// $(".available").hover(function(){
+//     $(this).fadeTo("slow", 0.25);
+//     }, function() {
+//     $(this).fadeTo("slow", 1);
+// });
 
 
 $('#submit').on('click', function(e) {
