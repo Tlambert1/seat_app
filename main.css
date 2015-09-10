@@ -3,12 +3,22 @@
 body {
 	font-family: "Open Sans";
 }
+<<<<<<< HEAD
+h1, p {
+	text-align: center;
+	
+}
+#wrapper {
+	margin: 0 auto;
+	width: 50%;
+=======
 header {
 	text-align: center;
 }
 #wrapper {
 	margin: 0 auto;
-	width: 50%;
+	width: 70%;
+>>>>>>> 1578f051a02ec337b62003e0a7cce8f3d65c8a2a
 }
 #row-1, #row-2, #row-3, #row-4 {
 	width: 100%;
@@ -17,7 +27,15 @@ header {
 	border-radius: 0 auto;
 	border : solid 1px;
 }
+<<<<<<< HEAD
+=======
 
+
+
+
+
+
+>>>>>>> 1578f051a02ec337b62003e0a7cce8f3d65c8a2a
 #seat-1, #seat-2, #seat-3, #seat-4, #seat-5, #seat-6 {
 	width: 12%;
 	height: 100px;
@@ -30,15 +48,18 @@ header {
 	float: left;
 	line-height: 100px;
 	text-align: center;
+<<<<<<< HEAD
+	background-color:#BFEFFF;
 
-	/*background-color:#BFEFFF;*/
 }
 
 
-
+.row {
+	width: 1000px;
+}
 
 .available {
-	background-color: green;
+	background-color: white;
 }
 
 .unavailable {
@@ -55,6 +76,41 @@ header {
 .div_hover:hover { 
 	background-color: #FFFFFF; 
 }
+#form{
+	padding: 51px;
+	margin: 39%;
+}
+=======
+	border-radius: 10px;
+
+	/*background-color:#BFEFFF;*/
+}
+
+
+
+
+.available {
+	background-color: green;
+
+}
+
+.unavailable {
+	background-color: red;
+
+}
+
+.selected {
+	background-color: blue;
+
+}
+
+
+
+
+
+.div_hover:hover { 
+	background-color: #FFFFFF; 
+}
 
 #form{
 	clear: both;
@@ -62,3 +118,4 @@ header {
 	text-align: none;
 }
 
+>>>>>>> 1578f051a02ec337b62003e0a7cce8f3d65c8a2a
