@@ -1,10 +1,38 @@
-.seat {
-	width: 100px;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: "Open Sans";
+}
+h1, p {
+	text-align: center;
+	
+}
+#wrapper {
+	margin: 0 auto;
+	width: 50%;
+}
+#row-1, #row-2, #row-3, #row-4 {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #F0F8FF;
+	border-radius: 0 auto;
+	border : solid 1px;
+}
+#seat-1, #seat-2, #seat-3, #seat-4, #seat-5, #seat-6 {
+	width: 12%;
 	height: 100px;
 	margin: 10px;
-
 	float: left;
 	border: 1px solid black;
+	border: solid 2px red;
+	border-color: #0D4F8B;
+	margin: 2%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	background-color:#BFEFFF;
+
+}
 
 
 .row {
@@ -22,3 +50,15 @@
 .selected {
 	background-color: blue;
 }
+
+
+
+
+.div_hover:hover { 
+	background-color: #FFFFFF; 
+}
+#form{
+	padding: 51px;
+	margin: 39%;
+}
+
